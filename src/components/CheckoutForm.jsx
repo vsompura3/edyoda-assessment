@@ -4,7 +4,7 @@ import Icon from './Icon'
 import PlanInput from './PlanInput'
 
 const CheckoutForm = () => {
-  const [selected, setSelected] = useState('plan-25')
+  const [selected, setSelected] = useState('plan-15')
 
   return (
     <div className="rounded-lg bg-white px-6 py-8 text-surface-300">

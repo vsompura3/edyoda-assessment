@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-banner': 'url(/src/assets/images/app-background.png)',
+        'hero-banner': 'url(/src/assets/images/app-background.webp)',
       },
       screens: {
         '8xl': '1440px',

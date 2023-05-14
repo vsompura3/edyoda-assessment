@@ -71,7 +71,7 @@ const CheckoutForm = () => {
           <span className="font-medium tracking-wide">₹18,500</span>
         </div>
         <div className="mt-3 rounded-lg bg-gradient-to-br from-alert-dark to-alert-light p-0.5">
-          <div className="flex justify-between rounded-md bg-white bg-gradient-to-br from-alert-dark/20 to-alert-light/20 px-6 py-4">
+          <div className="flex justify-between gap-2 rounded-md bg-white bg-gradient-to-br from-alert-dark/20 to-alert-light/20 px-6 py-4">
             <div className="">
               <p className="text-alert-dark">Limited time offer</p>
               <p className="-ml-0.5 flex items-center gap-2">

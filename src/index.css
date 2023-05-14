@@ -8,4 +8,10 @@ html,
 body,
 .app {
   @apply min-h-screen font-roboto;
+  background: rgb(4, 7, 15);
+  background: linear-gradient(
+    111deg,
+    rgba(4, 7, 15, 1) 0%,
+    rgba(70, 82, 107, 1) 100%
+  );
 }

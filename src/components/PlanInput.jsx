@@ -14,6 +14,7 @@ const PlanInput = ({
   return (
     <label
       htmlFor={labelId}
+      aria-selected={selected === `plan-${monthlyPrice}`}
       className={`relative flex cursor-pointer items-center justify-between rounded border-2  p-4 ${
         selected === `plan-${monthlyPrice}`
           ? 'border-success-dark bg-success-light'
@@ -32,13 +33,13 @@ const PlanInput = ({
           onChange={e => setSelected(e.target.dataset.plan)}
         />
         {selected === `plan-${monthlyPrice}` ? (
-          <Icon type="checkmark" />
+          <Icon type="checkmark" style="h-8 w-8" />
         ) : (
           <div
             aria-hidden="true"
-            className={`relative h-[33px] w-[32px] shrink-0 rounded-full border-2 border-surface-200 ${
+            className={`relative h-[30px] w-[30px] shrink-0 rounded-full border-2 border-surface-200 ${
               expired &&
-              'after:absolute after:left-1/2 after:top-1/2 after:h-3 after:w-3 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:bg-surface-200'
+              'after:absolute after:left-1/2 after:top-1/2 after:h-3.5 after:w-3.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:bg-surface-200'
             }`}
           ></div>
         )}
@@ -63,7 +64,9 @@ const PlanInput = ({
           } text-xs`}
         >
           ₹{monthlyPrice}{' '}
-          <span className="text-[10px] text-surface-200">/mo</span>
+          <span className="text-[10px] text-surface-200" aria-label="per month">
+            /mo
+          </span>
         </p>
       </div>
       {expired && (

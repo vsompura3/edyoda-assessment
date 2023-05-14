@@ -3,9 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-banner': 'url(/src/assets/images/app-background.svg)',
-      },
+      // backgroundImage: {
+      //   'hero-banner': 'url(/src/assets/images/app-background.svg)',
+      // },
       screens: {
         '8xl': '1440px',
         '9xl': '1700px',

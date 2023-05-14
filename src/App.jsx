@@ -3,7 +3,7 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <div className="app bg-hero-banner bg-no-repeat bg-cover bg-center text-surface-300">
+    <div className="app bg-hero-banner bg-no-repeat bg-cover text-surface-300">
       <Header />
       <Checkout />
     </div>

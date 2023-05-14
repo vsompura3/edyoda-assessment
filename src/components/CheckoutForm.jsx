@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import RazorPayBadge from '../assets/images/razorpay-badge.png'
 import Icon from './Icon'
 import PlanInput from './PlanInput'
 
 const CheckoutForm = () => {
+  const [selected, setSelected] = useState('plan-25')
+
   return (
     <div className="rounded-lg bg-white px-6 py-8 text-surface-300">
       {/* heading */}
@@ -26,10 +29,36 @@ const CheckoutForm = () => {
       </h2>
       {/* subscription plans */}
       <div className="mt-7 space-y-4">
-        <PlanInput />
-        <PlanInput />
-        <PlanInput />
-        <PlanInput />
+        <PlanInput
+          setSelected={setSelected}
+          subscriptionTimeSpan={12}
+          monthlyPrice={8}
+          calculatedPrice={99}
+          expired={true}
+          selected={selected}
+        />
+        <PlanInput
+          setSelected={setSelected}
+          subscriptionTimeSpan={12}
+          monthlyPrice={15}
+          calculatedPrice={179}
+          recommended={true}
+          selected={selected}
+        />
+        <PlanInput
+          setSelected={setSelected}
+          subscriptionTimeSpan={6}
+          monthlyPrice={25}
+          calculatedPrice={149}
+          selected={selected}
+        />
+        <PlanInput
+          setSelected={setSelected}
+          subscriptionTimeSpan={3}
+          monthlyPrice={33}
+          calculatedPrice={99}
+          selected={selected}
+        />
       </div>
       <div
         aria-hidden="true"
@@ -55,7 +84,7 @@ const CheckoutForm = () => {
                 </span>
               </p>
             </div>
-            <span className="tracking-wide">- ₹18,401</span>
+            <span className="font-semibold tracking-wide">- ₹18,401</span>
           </div>
         </div>
         <div className="mt-3 flex items-center justify-between px-6">

@@ -25,7 +25,7 @@ export default {
           dark: '#47ba68',
         },
         danger: {
-          light: '#f77171',
+          light: '#F77171',
           dark: '#ff0000',
         },
         alert: {

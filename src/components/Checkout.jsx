@@ -62,7 +62,7 @@ const Checkout = () => {
               </li>
             </ul>
           </section>
-          <aside className="col-start-9 col-span-full">
+          <aside className="col-start-8 col-span-full">
             <CheckoutForm />
           </aside>
         </div>

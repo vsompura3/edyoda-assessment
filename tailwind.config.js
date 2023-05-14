@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-banner': 'url(./src/assets/images/hero-banner.png)',
+      },
       screens: {
         '8xl': '1440px',
         '9xl': '1700px',

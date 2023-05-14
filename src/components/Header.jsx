@@ -4,7 +4,7 @@ import Icon from './Icon'
 const Header = () => {
   return (
     <header className="bg-white">
-      <div className="container md:max-w-7xl mx-auto px-4">
+      <div className="container md:max-w-9xl mx-auto px-4">
         <nav className="flex items-center justify-between gap-4 py-4 font-raleway font-medium">
           <div className="flex items-center gap-4 md:gap-16">
             <a href="/" aria-label="edyoda home">

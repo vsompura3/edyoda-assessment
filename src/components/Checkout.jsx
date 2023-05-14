@@ -4,19 +4,19 @@ import Icon from './Icon'
 const Checkout = () => {
   return (
     <main className="text-white mt-16 pb-8">
-      <div className="container mx-auto md:max-w-7xl px-12">
-        <div className="grid md:grid-cols-12">
+      <div className="container mx-auto md:max-w-9xl px-12">
+        <div className="grid xl:grid-cols-12 items-start gap-20 xl:gap-4">
           <section className="col-span-6">
-            <h1 className="text-[2.5rem] font-semibold font-raleway leading-snug">
-              Access curated courses worth{' '}
+            <h1 className="text-[2.5rem] max-w-[24ch] font-semibold font-raleway leading-snug">
+              Access curated courses worth ₹
               <span className="font-roboto text-alert-dark line-through">
-                <span className="text-white">₹ 18,500</span>
+                <span className="text-white"> 18,500</span>
               </span>{' '}
               at just{' '}
               <span className="text-primary-light font-roboto">₹ 99</span> per
               year!
             </h1>
-            <ul className="mt-11 space-y-6">
+            <ul className="mt-11 space-y-4">
               <li className="flex items-center gap-16">
                 <Icon type="book" />
                 <p className="text-2xl">
@@ -62,7 +62,7 @@ const Checkout = () => {
               </li>
             </ul>
           </section>
-          <aside className="col-start-8 col-span-full">
+          <aside className="col-start-9 col-span-full">
             <CheckoutForm />
           </aside>
         </div>

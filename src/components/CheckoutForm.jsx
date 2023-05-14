@@ -104,7 +104,11 @@ const CheckoutForm = () => {
           Proceed to pay
         </button>
       </div>
-      <img src={RazorPayBadge} alt="razor pay tag" className="mt-7" />
+      <img
+        src={RazorPayBadge}
+        alt="razor pay tag"
+        className="mt-7 h-auto w-32"
+      />
     </div>
   )
 }

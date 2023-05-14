@@ -54,12 +54,12 @@ const Header = () => {
                 onClick={handleClick}
               />
             </button>
-            <a href="#" className="hover:text-surface-300/75">
+            <a href="#" className="hover:text-surface-300/75 hover:underline">
               Login
             </a>
             <a
               href="#"
-              className="rounded-full bg-gradient-to-r from-primary-light to-primary-dark px-10 py-3 font-bold uppercase text-white hover:opacity-70"
+              className="rounded-full bg-gradient-to-r from-primary-light to-primary-dark px-10 py-3 font-bold uppercase text-white hover:underline hover:opacity-70"
             >
               Join now
             </a>

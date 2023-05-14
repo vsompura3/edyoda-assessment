@@ -1,4 +1,4 @@
-# EdYoda
+# EdYoda Assessment
 
 Frontend Assessment
 
@@ -11,14 +11,15 @@ Clone the project using the following command
 ```
 
 Once you have successfully cloned the project, open it with your preferrable
-code editor ( VSC preferred ), and move to the project directory and make it
-your current directory and open the project in your code editor
+code editor ( VSCode preferred ), and move to the project's root directory and
+make it your current directory and open the project in your code editor.
 
 ```bash
   cd edyoda-assessment
 ```
 
-Install the node modules using the following command
+Install the node modules using the following command (you can use either npm,
+pnpm, or yarn)
 
 ```bash
   npm install

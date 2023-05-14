@@ -1,4 +1,4 @@
-# EdYoda Assessment
+# **EdYoda Assessment**
 
 Frontend Assessment
 
@@ -37,8 +37,15 @@ libraries of CSS has been used. The CSS has been written from scratch.
 
 PFA the insight of the hosted website below.
 
-<!-- https://pagespeed.web.dev/analysis/https-edyoda-tanupam-netlify-app/v5wmy60v3i?form_factor=desktop -->
+https://pagespeed.web.dev/analysis/https-edyoda-assessment-netlify-app/ixcerckaja?form_factor=mobile
+
+Technologies Used: [ReactJS](https://react.dev),
+[TailwindCSS](https://tailwindcss.com)
+
+Links for the assessment:
+[Code](https://github.com/vsompura3/edyoda-assessment.git),
+[Live Demo](https://edyoda-assessment.netlify.app)
 
 Thanks and Regards,
 
-Vaibhav Sompura.
+**Vaibhav Sompura**.

@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        '8xl': '1440px',
+        '9xl': '1700px',
+      },
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],

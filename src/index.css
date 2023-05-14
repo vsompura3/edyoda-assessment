@@ -7,4 +7,8 @@
 html,
 body {
   @apply min-h-screen font-roboto;
+  background-image: url('./src/assets/images/app-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="bg-white">
-      <div className="xl:max-w-9xl container px-4">
+      <div className="xl:max-w-9xl container mx-auto px-4">
         <nav className="flex flex-col items-center justify-between gap-8 py-4 font-raleway font-medium md:flex-row lg:gap-4">
           <div className="flex items-center gap-4 md:gap-8">
             <a href="/" aria-label="edyoda home">

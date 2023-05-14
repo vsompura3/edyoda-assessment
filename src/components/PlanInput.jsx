@@ -15,7 +15,7 @@ const PlanInput = ({
     <label
       htmlFor={labelId}
       aria-selected={selected === `plan-${monthlyPrice}`}
-      className={`relative flex cursor-pointer items-center justify-between rounded border-2  p-4 ${
+      className={`relative flex cursor-pointer items-center justify-between rounded border-2 px-4 py-3.5 ${
         selected === `plan-${monthlyPrice}`
           ? 'border-success-dark bg-success-light'
           : 'border-surface-200  bg-white'
@@ -70,12 +70,12 @@ const PlanInput = ({
         </p>
       </div>
       {expired && (
-        <span className="absolute left-9 top-0 rounded-b bg-danger-light px-7 py-0.5 text-xs text-white">
+        <span className="absolute left-14 top-0 rounded-b bg-danger-light px-7 py-0.5 text-xs text-white">
           offer expired
         </span>
       )}
       {recommended && (
-        <span className="absolute left-9 top-0 rounded-b bg-success-dark px-6 py-0.5 text-xs text-white">
+        <span className="absolute left-14 top-0 rounded-b bg-success-dark px-6 py-0.5 text-xs text-white">
           Recommended
         </span>
       )}

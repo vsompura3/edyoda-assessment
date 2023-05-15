@@ -20,7 +20,7 @@ const Checkout = () => {
               </span>{' '}
               per year!
             </h1>
-            <ul className="mt-11 space-y-8 2xl:mt-20 2xl:space-y-16">
+            <ul className="mt-11 space-y-8 2xl:mt-20 2xl:space-y-12">
               <PlanBenefit iconType="book">
                 <span className="font-semibold text-primary-light">100+</span>{' '}
                 Job relevant courses

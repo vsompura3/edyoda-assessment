@@ -39,7 +39,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="flex items-center gap-4 md:gap-8">
-            <button className="flex items-center gap-2 rounded-md p-2">
+            <button className="flex cursor-pointer items-center gap-2 rounded-md p-2">
               <span className="sr-only">Search</span>
               {show && (
                 <input
@@ -50,7 +50,7 @@ const Header = () => {
                 />
               )}
               <MagnifyingGlassIcon
-                className="h-6 w-6 hover:bg-surface-100/50"
+                className="h-6 w-6 hover:text-surface-100/95"
                 onClick={handleClick}
               />
             </button>

@@ -46,7 +46,8 @@ const Header = () => {
                   type="text"
                   name="search"
                   id="Search"
-                  className="rounded-md border border-surface-200 px-2 py-0.5"
+                  placeholder="Search for anything"
+                  className="rounded-md border border-surface-200 px-2 py-0.5 placeholder:text-surface-300/50"
                 />
               )}
               <MagnifyingGlassIcon
